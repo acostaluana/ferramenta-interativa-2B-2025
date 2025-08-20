@@ -1,10 +1,9 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
 
-    :root {
-        --text-color: #DBE4EF;
-        --card-front-color: #144480;
-        --card-back-color: #00F4BF;
-    }
-    
 body {
     background: url(img/bg-desktop.webp);
     font-family: Bai Jamjuree;
@@ -41,6 +40,8 @@ footer p {
     text-align: center;
     background-color: var(--card-back-color);
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3 {
@@ -55,14 +56,17 @@ footer p {
 }
 
 .cartao__conteudo__pergunta p {
-
     color: var(--text-color);
     font-weight: 500;
 
 }
 
 .cartao__conteudo__resposta p {
-
     color: var(--card-back-color);
     font-weight: 700;
+}
+
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+
 }
