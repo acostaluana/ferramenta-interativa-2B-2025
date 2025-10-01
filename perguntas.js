@@ -1,7 +1,7 @@
 criaCartao(
-'Programação', 
-'O que é Java Script?',
-'Java Script é uma linguagem de Programaçao'
+'Química', 
+'O que são hidrocarbonetos?',
+'Compostos orgânicos formados apenas por átomos de carbono e hidrogênio'
 )
 
 criaCartao(
@@ -10,7 +10,7 @@ criaCartao(
 'Java Script é uma linguagem de Programaçao'
 )
 criaCartao(
-'Programação', 
-'O que é Java Script?',
-'Java Script é uma linguagem de Programaçao'
+'Física', 
+'Qual a primeira lei de Newton?',
+'Lei da Inércia'
 )
